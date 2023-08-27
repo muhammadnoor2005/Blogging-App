@@ -1,0 +1,86 @@
+.mainBlogDiv{
+    margin: 2% 7% 5% 7%;
+
+
+}
+.blogImg{
+    max-height: 10vh;
+    width:10vh;
+    border-radius:5px;
+}
+.blogMap{
+    border: 1px solid rgba(222, 226, 230, 1);
+    background-color: white;
+    height: auto;
+    border-radius: 8px;
+    margin: 2%;
+    padding:2%;
+    
+}
+.blogHeading{
+    display: flex;
+}
+.confirmDelDiv{
+    border-radius: 10px;
+    padding: 1.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    min-width: 40vh;
+    min-height: 20vh;
+    background-color: rgb(234, 234, 234);
+
+}
+.showDiv{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 100%;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.498);
+    height: 100%;
+    width: 100%;
+}
+.hideDiv{
+    display: none;
+}
+
+.dashboardEditShow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+}
+.dashboardEditHide{
+    display: none;
+}
+.editBlogTextArea{
+    width: 70%;
+    background-color: rgb(234, 234, 234);
+    padding-right:3%;
+    padding-left:3%;
+    padding-top:3%;
+    padding-bottom:2%;
+    box-shadow: 1px 2px 9px -1px rgb(68, 68, 68);
+    border-radius: 3px;
+}
+.editBlogConfirm{
+    margin-top: 1%;
+}
+
+.woLoginImg{
+    min-height: 30vh;
+    min-width: 30vh;
+    border-radius: 10px;
+}

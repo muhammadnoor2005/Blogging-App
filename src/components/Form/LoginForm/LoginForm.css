@@ -1,0 +1,23 @@
+.grandDiv{
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 222, 222);
+}
+
+.formParentDiv{
+    display: flex;
+    border-radius:3px;
+    padding-top:1.5%;
+    height:35vh;
+    width:350px;
+    box-shadow: 1px 2px 9px -1px rgb(193, 193, 193);
+    justify-content: center;
+    align-items: center;
+    background-color:white ;
+
+}
+
+

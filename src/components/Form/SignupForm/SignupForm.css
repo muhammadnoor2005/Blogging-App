@@ -1,0 +1,26 @@
+.ima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgb(222, 222, 222);
+}
+.parentDivSignup{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid 1px transparent;
+    height: 64vh;
+    width:350px;
+    box-shadow: 1px 2px 9px -1px rgb(193, 193, 193);
+    border-radius:3px;
+    /* position: absolute;
+    top: 55%;
+    left:22%; */
+    /* transform: translate(-50%,-50%); */
+    background-color: rgb(255, 255, 255)
+};
+
+
