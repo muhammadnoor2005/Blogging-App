@@ -4,7 +4,7 @@ import {Button,Input} from "antd";
 import { useState } from "react";
 const { TextArea } = Input;
 
-export default function({blog,email}){
+export default function({blog,email,name}){
     const [delBool,changeBool] = useState(false);
     const [delBlogId,delBlogState] = useState(0);
 

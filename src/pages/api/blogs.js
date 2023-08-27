@@ -20,7 +20,7 @@ export default async function handler(req,res){
         
     }
     if(req.method === "PATCH"){
-        const blogToEdit = req.body;
+        const blogToEdit = req.body; 
         try{
             editBlog(blogToEdit);
             res.status(201).send();

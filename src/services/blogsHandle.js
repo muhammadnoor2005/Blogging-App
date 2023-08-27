@@ -29,3 +29,21 @@ export function editBlog({titleVal,descVal,blogMilliSec}){
     blogToEdit.descVal = descVal;
     fs.writeFileSync(blogsPath,JSON.stringify(data));
 }
+
+export function updateBlogName(fName,lName,email){
+    const data = getBlogs();
+    if (data.length !== 0){
+        const fullName = `${fName} ${lName}`
+    
+        for (let i = 0; i < data.length; i++){
+            console.log(data[i])
+            if(data[i].userEmail === email){
+                console.log("working")
+               data[i].fullName = fullName;
+               data.splice(i,1,data[i]); 
+            }
+        }
+        fs.writeFileSync(blogsPath,JSON.stringify(data));
+    }
+   
+}
