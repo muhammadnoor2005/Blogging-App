@@ -1,2 +1,0 @@
-# Blogging App
- 
